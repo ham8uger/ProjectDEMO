@@ -1,5 +1,7 @@
 body {
-    background-color: moccasin;
+    width: 80%;
+    background-color: antiquewhite;
+    margin: auto;
 }
 
 h1 {
@@ -13,13 +15,20 @@ h1 {
     gap: 10px;
 }
 
-.input-container > input {
+.input-container>input {
     width: 300px;
     height: 30px;
     font-size: 1.25rem;
+    /* 1. 去除默认边框 */
+    border: none;
+    /* 2. 去除输入时的外边框（光晕） */
+    outline: none;
+    /* 4. 如果需要去掉背景色，可设置透明 */
+    background-color: transparent;
+    border-bottom: 1px black solid;
 }
 
-.input-container > button {
+.input-container>button {
     width: 40px;
     height: 40px;
     border-radius: 20px;
@@ -28,6 +37,7 @@ h1 {
 }
 
 .container {
+    background-color: gray;
     margin-top: 15px;
     display: flex;
     flex-direction: column;
@@ -46,7 +56,7 @@ h1 {
     background-color: orange;
 }
 
-.actions > button {
+.actions>button {
     width: 75px;
     height: red;
     background-color: red;
