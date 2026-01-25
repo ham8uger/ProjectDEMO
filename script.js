@@ -6,7 +6,7 @@ const todoContainer = document.querySelector(".container")
 addTodo.addEventListener("click", () => {
     if (inputTodo.value != "") {
         displayTodo()
-        inputTodo.value=""
+        inputTodo.value = ""
     }
 })
 
@@ -25,7 +25,7 @@ function displayTodo() {
     let delBtn = document.createElement("button")
     delBtn.innerText = "Delete"
 
-    delBtn.addEventListener("click",() => {
+    delBtn.addEventListener("click", () => {
         todoContainer.removeChild(todo)
     })
 
