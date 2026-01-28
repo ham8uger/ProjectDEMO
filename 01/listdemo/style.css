@@ -1,6 +1,5 @@
 body {
     width: 80%;
-    background-color: antiquewhite;
     margin: auto;
 }
 
@@ -9,9 +8,8 @@ h1 {
 }
 
 .input-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 80%;
+    margin: auto;
     gap: 10px;
 }
 
@@ -33,11 +31,9 @@ h1 {
     height: 40px;
     border-radius: 20px;
     font-size: 1.5rem;
-    background-color: gold;
 }
 
 .container {
-    background-color: gray;
     margin-top: 15px;
     display: flex;
     flex-direction: column;
@@ -53,16 +49,10 @@ h1 {
     font-size: 1.2rem;
     padding: 0px 5px;
     border-radius: 10px;
-    background-color: orange;
 }
 
 .actions>button {
     width: 75px;
-    height: red;
-    background-color: red;
-    color: white;
-    border-color: darkred;
-    font-size: 1.05rem;
     border-radius: 10px;
     margin-left: 10px;
 }
